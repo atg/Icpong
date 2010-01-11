@@ -166,7 +166,7 @@
 {
 	NSSize screenSize = [controller screenSize];
 	
-	float fudgeFactor = 20.0;
+	float fudgeFactor = 10.0;
 	
 	if (playerPaddleDirection == 1)
 		self.paddle1Position -= screenSize.height / fudgeFactor;

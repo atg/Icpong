@@ -58,7 +58,7 @@
 		float sign = (SSRandomIntBetween(0, 1) * 2 - 1);
 		float extraQuarter = (SSRandomIntBetween(0, 1) * M_PI_2);
 		float r = sign * (SSRandomFloatBetween(M_PI_2 * 0.25, M_PI_2 * 0.75) + extraQuarter);
-		velocity = AGMakeGeometricVec(r, 250);
+		velocity = AGMakeGeometricVec(r, 450);
 		acceleration = AGNullVec;
 		jerk = AGNullVec;
 	}
